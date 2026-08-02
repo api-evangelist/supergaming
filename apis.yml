@@ -1,7 +1,30 @@
 aid: supergaming
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supergaming.png
 name: SuperGaming
-description: SuperGaming is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SuperGaming is a Series B-funded game development studio building multiplayer
+  games "for the next billion players" in emerging markets. Headquartered in
+  Singapore with a studio in Pune, India, the company develops and operates
+  titles including Indus (battle royale), Prime Rush, Prime Rush MENA, SHOWDOWN,
+  MaskGun (110M+ installs), Tower Conquest, and Silly Royale. SuperGaming also
+  runs SuperPlatform, a proprietary real-time multiplayer and live-ops engine
+  that powers its own games and 15+ other titles, and offers publisher services
+  such as co-development, LiveOps-as-a-service, localization, and user
+  acquisition. As of this enrichment pass the company publishes no public
+  developer API, SDK, or developer portal for external developers; SuperPlatform
+  is an internal engine offered through partnerships rather than a self-serve
+  API. This profile was surfaced as a portfolio company of a16z.
 url: https://raw.githubusercontent.com/api-evangelist/supergaming/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Development
+- Multiplayer
+- Live Operations
+- Mobile Games
+- Emerging Markets
 apis: []
+common:
+- type: DomainSecurity
+  url: security/supergaming-domain-security.yml
+- type: Website
+  url: https://www.supergaming.com/
+- type: PrivacyPolicy
+  url: https://www.supergaming.com/privacy.html
+- type: TermsOfService
+  url: https://www.supergaming.com/tos.html
+- type: LinkedIn
+  url: https://in.linkedin.com/company/supg
+- type: Twitter
+  url: https://twitter.com/supergamingnpc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
